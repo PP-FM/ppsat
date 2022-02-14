@@ -46,11 +46,15 @@ int main(int argc, char** argv) {
         /*
          * Notice generate function will give a random formula.
          * for solving the formulae of your own, you can input replace phi  with your input of type unique_ptr<Forluma>
+         * for inputing your own formulae, you could use constructor of formula that takes string as input:
+         * i.e  auto phi = make_unique<Formula>(nvar, "(1 2 3)(-1) (-2 3)");
+         * the syntax of input string is the (\(-?[0-9]+\))+
          */
 
         Solver solver(nvar, phi);
         /*
          * initiate your solver with your formulae and number of variables.
+         *
          * */
 
         chrono::steady_clock sc;

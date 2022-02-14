@@ -15,10 +15,4 @@ add_subdirectory(src)
 #add_subdirectory(test)
 add_subdirectory(Eval)
 
-
-# unit
-# add_executable(unit unit.cpp literal.cpp clause.cpp formula.cpp utils.cpp state.cpp heuristics.cpp solver.cpp)
-# target_link_libraries(unit PUBLIC emp-tool gmp ssl crypto)
-
-# GTest
 add_test (NAME MyTest COMMAND runTests)
