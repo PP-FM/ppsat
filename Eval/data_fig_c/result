@@ -1,0 +1,260 @@
+finish
+connected
+finish generate
+unit search: 0.00374157 seconds
+guess: 0.00218722 seconds
+mux: 0.00306992 seconds
+check: 0.00306992 seconds
+backtrack: 0.000964139 seconds
+propagation: 0.000556124 seconds
+total time: 0.0113059
+10 variables, 3 literals, 100 clauses.
+105896
+##########################
+finish
+connected
+finish generate
+unit search: 0.0096779 seconds
+guess: 0.00703676 seconds
+mux: 0.00850379 seconds
+check: 0.00850379 seconds
+backtrack: 0.00264831 seconds
+propagation: 0.00232763 seconds
+total time: 0.0338974
+10 variables, 3 literals, 500 clauses.
+503496
+##########################
+finish
+connected
+finish generate
+unit search: 0.0159686 seconds
+guess: 0.0128035 seconds
+mux: 0.0152514 seconds
+check: 0.0152514 seconds
+backtrack: 0.00261399 seconds
+propagation: 0.00445277 seconds
+total time: 0.0575438
+10 variables, 3 literals, 1000 clauses.
+1000496
+##########################
+finish
+connected
+finish generate
+unit search: 0.0612751 seconds
+guess: 0.0499485 seconds
+mux: 0.0580378 seconds
+check: 0.0580378 seconds
+backtrack: 0.00263497 seconds
+propagation: 0.0231459 seconds
+total time: 0.225939
+10 variables, 3 literals, 5000 clauses.
+4976496
+##########################
+finish
+connected
+finish generate
+unit search: 0.116046 seconds
+guess: 0.0975883 seconds
+mux: 0.107451 seconds
+check: 0.107451 seconds
+backtrack: 0.00234639 seconds
+propagation: 0.0442006 seconds
+total time: 0.427881
+10 variables, 3 literals, 10000 clauses.
+9946496
+##########################
+finish
+connected
+finish generate
+unit search: 0.00755024 seconds
+guess: 0.00798033 seconds
+mux: 0.00829418 seconds
+check: 0.00829418 seconds
+backtrack: 0.00316978 seconds
+propagation: 0.00225659 seconds
+total time: 0.0330381
+50 variables, 3 literals, 100 clauses.
+513736
+##########################
+finish
+connected
+finish generate
+unit search: 0.0276066 seconds
+guess: 0.0263948 seconds
+mux: 0.0284553 seconds
+check: 0.0284553 seconds
+backtrack: 0.00312149 seconds
+propagation: 0.0107852 seconds
+total time: 0.110646
+50 variables, 3 literals, 500 clauses.
+2447336
+##########################
+finish
+connected
+finish generate
+unit search: 0.0546343 seconds
+guess: 0.0504239 seconds
+mux: 0.0530451 seconds
+check: 0.0530451 seconds
+backtrack: 0.00331195 seconds
+propagation: 0.0220365 seconds
+total time: 0.212751
+50 variables, 3 literals, 1000 clauses.
+4864336
+##########################
+finish
+connected
+finish generate
+unit search: 0.237418 seconds
+guess: 0.240325 seconds
+mux: 0.243564 seconds
+check: 0.243564 seconds
+backtrack: 0.00283426 seconds
+propagation: 0.102604 seconds
+total time: 0.964344
+50 variables, 3 literals, 5000 clauses.
+24200336
+##########################
+finish
+connected
+finish generate
+unit search: 0.437284 seconds
+guess: 0.486795 seconds
+mux: 0.506658 seconds
+check: 0.506658 seconds
+backtrack: 0.00300908 seconds
+propagation: 0.208353 seconds
+total time: 1.92732
+50 variables, 3 literals, 10000 clauses.
+48370336
+##########################
+finish
+connected
+finish generate
+unit search: 0.0149273 seconds
+guess: 0.0133211 seconds
+mux: 0.0119801 seconds
+check: 0.0119801 seconds
+backtrack: 0.00367125 seconds
+propagation: 0.00400665 seconds
+total time: 0.0537216
+100 variables, 3 literals, 100 clauses.
+1023536
+##########################
+finish
+connected
+finish generate
+unit search: 0.0532559 seconds
+guess: 0.0511877 seconds
+mux: 0.0522572 seconds
+check: 0.0522572 seconds
+backtrack: 0.00401407 seconds
+propagation: 0.0222223 seconds
+total time: 0.211963
+100 variables, 3 literals, 500 clauses.
+4877136
+##########################
+finish
+connected
+finish generate
+unit search: 0.0998002 seconds
+guess: 0.102324 seconds
+mux: 0.0999955 seconds
+check: 0.0999955 seconds
+backtrack: 0.00485061 seconds
+propagation: 0.0450398 seconds
+total time: 0.408319
+100 variables, 3 literals, 1000 clauses.
+9694136
+##########################
+finish
+connected
+finish generate
+unit search: 0.451679 seconds
+guess: 0.492084 seconds
+mux: 0.493495 seconds
+check: 0.493495 seconds
+backtrack: 0.00380997 seconds
+propagation: 0.205695 seconds
+total time: 1.92155
+100 variables, 3 literals, 5000 clauses.
+48230136
+##########################
+finish
+connected
+finish generate
+unit search: 0.860702 seconds
+guess: 1.07207 seconds
+mux: 1.01147 seconds
+check: 1.01147 seconds
+backtrack: 0.00361747 seconds
+propagation: 0.411005 seconds
+total time: 3.91467
+100 variables, 3 literals, 10000 clauses.
+96400136
+##########################
+finish
+connected
+finish generate
+unit search: 0.176119 seconds
+guess: 0.102147 seconds
+mux: 0.0926014 seconds
+check: 0.0926014 seconds
+backtrack: 0.0132166 seconds
+propagation: 0.0412832 seconds
+total time: 0.480605
+1000 variables, 3 literals, 100 clauses.
+10199936
+##########################
+finish
+connected
+finish generate
+unit search: 0.528437 seconds
+guess: 0.47925 seconds
+mux: 0.480675 seconds
+check: 0.480675 seconds
+backtrack: 0.0133721 seconds
+propagation: 0.203996 seconds
+total time: 1.97797
+1000 variables, 3 literals, 500 clauses.
+48613536
+##########################
+finish
+connected
+finish generate
+unit search: 0.936197 seconds
+guess: 1.03845 seconds
+mux: 0.99228 seconds
+check: 0.99228 seconds
+backtrack: 0.0132068 seconds
+propagation: 0.412752 seconds
+total time: 3.94591
+1000 variables, 3 literals, 1000 clauses.
+96630536
+##########################
+finish
+connected
+finish generate
+unit search: 4.31988 seconds
+guess: 5.1321 seconds
+mux: 4.84037 seconds
+check: 4.84037 seconds
+backtrack: 0.0131823 seconds
+propagation: 2.04323 seconds
+total time: 19.1021
+1000 variables, 3 literals, 5000 clauses.
+480766536
+##########################
+finish
+connected
+finish generate
+unit search: 8.5623 seconds
+guess: 10.3503 seconds
+mux: 9.7121 seconds
+check: 9.7121 seconds
+backtrack: 0.0134165 seconds
+propagation: 4.10761 seconds
+total time: 38.263
+1000 variables, 3 literals, 10000 clauses.
+960936536
+##########################

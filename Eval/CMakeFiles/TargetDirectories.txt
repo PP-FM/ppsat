@@ -1,0 +1,3 @@
+/Users/ningluo/Code/ppsat/Eval/CMakeFiles/rebuild_cache.dir
+/Users/ningluo/Code/ppsat/Eval/CMakeFiles/edit_cache.dir
+/Users/ningluo/Code/ppsat/Eval/CMakeFiles/microtest.dir

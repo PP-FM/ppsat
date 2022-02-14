@@ -1,0 +1,292 @@
+#!/usr/bin/python3
+
+import os
+import sys
+import argparse
+
+
+def convert( r, incompat, symmetry, num, fn ):
+
+    # find all genotypes
+    gts = []
+    gts_dict = {}
+    l = None
+    t = 0
+    with open( fn, 'r' ) as f:
+
+        # read genotypes
+        for nxt in f:
+            gt, idx, _, uid, var = nxt.split()
+            if not l:
+                l = len( gt )
+
+            if gt in gts_dict:
+                gts_dict[ gt ].append( ( idx, uid, var ) )
+            else:
+                t += 1
+                gts.append( gt )
+                gts_dict[ gt ] = [ ( idx, uid, var ) ]
+
+            if t == num:
+                break
+
+        h = len( gts ) * l
+
+        #####  variable numberings
+        ##
+        ##  (  0, s1 ]  haplotypes
+        ##  ( s1, s2 ]  selector bits
+        ##  ( s2, s3 ]  heterozygous sites
+        ##  ( s3, n  ]  adder circuits
+        ##
+        s1 = ( r * l )
+        s2 = s1 + ( 2 * r * t )
+        s3 = s2 + h
+        n  = s3 + ( 2 * r * t )
+
+        m = 0
+        hc  = 0
+        hcs = {}
+        clauses = []
+        for i in range( t ):
+            for j in range( l ):
+                for k in range( r ):
+                    hkj  = 1 + ( k * l ) + j
+                    skia = s1 + 1 + ( 2 * k * t ) + ( 2 * i )
+                    skib = s1 + 1 + ( 2 * k * t ) + ( 2 * i ) + 1
+
+                    if gts[ i ][ j ] == '1':
+                        clauses.append( '{x} {y} 0'.format( x = -hkj, y = -skia ) )
+                        clauses.append( '{x} {y} 0'.format( x = -hkj, y = -skib ) )
+                        clauses.append( '{x} {y} 0'.format( x = skia, y = -skia ) ) #dummy clauses to hide number of 9 sites
+                        clauses.append( '{x} {y} 0'.format( x = skib, y = -skib ) ) #dummy clauses to hide number of 9 sites
+                        m += 4
+
+                    elif gts[ i ][ j ] == '2':
+                        clauses.append( '{x} {y} 0'.format( x = hkj, y = -skia ) )
+                        clauses.append( '{x} {y} 0'.format( x = hkj, y = -skib ) )
+                        clauses.append( '{x} {y} 0'.format( x = skia, y = -skia ) ) #dummy clauses to hide number of 9 sites
+                        clauses.append( '{x} {y} 0'.format( x = skib, y = -skib ) ) #dummy clauses to hide number of 9 sites
+                        m += 4
+
+                    elif gts[ i ][ j ] == '9':
+                        if ( i, j ) in hcs:
+                            tij = hcs[ ( i, j ) ]
+                        else:
+                            tij = s2 + 1 + hc
+                            hcs[ ( i, j ) ] = tij
+                            hc += 1
+
+                        clauses.append( '{x} {y} {z} 0'.format( x = hkj,  y = -tij, z = -skia ) )
+                        clauses.append( '{x} {y} {z} 0'.format( x = -hkj, y = tij,  z = -skia ) )
+                        clauses.append( '{x} {y} {z} 0'.format( x = hkj,  y = tij,  z = -skib ) )
+                        clauses.append( '{x} {y} {z} 0'.format( x = -hkj, y = -tij, z = -skib ) )
+                        m += 4
+
+                    else:
+                        print('unable to convert {} -- unknown entries'.format( fn ) )
+                        return None, None, None
+
+            for k in range( r ):
+                # adder circuit
+                vkia  = s3 + 1 + ( 2 * k * t ) + ( 2 * i )
+                vkiap = s3 + 1 + ( 2 * ( k + 1 ) * t ) + ( 2 * i )
+                skia  = s1 + 1 + ( 2 * k * t ) + ( 2 * i )
+
+                vkib  = s3 + 1 + ( 2 * k * t ) + ( 2 * i ) + 1
+                vkibp = s3 + 1 + ( 2 * ( k + 1 ) * t ) + ( 2 * i ) + 1
+                skib  = s1 + 1 + ( 2 * k * t ) + ( 2 * i ) + 1
+
+                if k == 0:
+                    clauses.append( '{x} {y} 0'.format( x = -vkia, y = skia ) )
+                    clauses.append( '{x} {y} 0'.format( x = vkia, y = -skia ) )
+                    clauses.append( '{x} {y} 0'.format( x = -vkib, y = skib ) )
+                    clauses.append( '{x} {y} 0'.format( x = vkia, y = -skib ) )
+                    m += 4
+
+                clauses.append( '{x} {y} 0'.format( x = -vkia, y = -skia ) )
+                clauses.append( '{x} {y} 0'.format( x = -vkib, y = -skib ) )
+                m += 2
+
+                ##### equality clauses
+                ##
+                ## we need to have vkiap = ( skia or vkia )
+                ## we begin by writing equality as nxor in dnf form
+                ## then we apply De Morgan's Law
+                ##
+                ##    !(x xor ( y or z ) )
+                ##  = !((x and !( y or z )) or (!x and ( y or z )))       by a xor b = (a and !b) or (!a and b)
+                ##  = !((x and !y and !z) or (!x and ( y or z )))         by De Morgan's Laws
+                ##  = !((x and !y and !z) or (!x and y) or (!x and z))    by Distributive Law
+                ##  = !(x and !y and !z) and !(!x and y) and !(!x and z)  by De Morgan's Laws
+                ##  = (!x or y or z) and (x or !y) and (x or !z)          by De Morgan's Laws
+                if k < r - 1:
+                    clauses.append( '{x} {y} {z} 0'.format( x = -vkiap, y = skia, z = vkia ) )
+                    clauses.append( '{x} {y} 0'.format( x = vkiap, y = -skia ) )
+                    clauses.append( '{x} {y} 0'.format( x = vkiap, y = -vkia ) )
+
+                    clauses.append( '{x} {y} {z} 0'.format( x = -vkibp, y = skib, z = vkib ) )
+                    clauses.append( '{x} {y} 0'.format( x = vkibp, y = -skib ) )
+                    clauses.append( '{x} {y} 0'.format( x = vkibp, y = -vkib ) )
+                    m += 6
+
+                else:
+                    clauses.append( '{x} 0'.format( x = vkia ) )
+                    clauses.append( '{x} 0'.format( x = vkib ) )
+                    m += 2
+
+
+        # add incompatible pairs extension
+        #if incompat:
+        #    incpt = []
+        #    done  = {}
+        #
+        #    for a, gt1 in enumerate( gts ):
+        #        for b, gt2 in enumerate( gts ):
+        #            if gt1 == gt2:
+        #                continue
+        #
+        #            if ( gt1, gt2 ) in done or ( gt2, gt1 ) in done:
+        #                continue
+        #            else:
+        #                done[ ( gt1, gt2 ) ] = True
+        #
+        #            for i in range( l ):
+        #                if gt1[ i ] == '1' and gt2[ i ] == '2':
+        #                    incpt.append( ( a, b ) )
+        #                    break
+        #
+        #                if gt1[ i ] == '2' and gt2[ i ] == '1':
+        #                    incpt.append( ( a, b ) )
+        #                    break
+        #
+        #    for x in incpt:
+        #        for k in range( r ):
+        #            i1, i2 = x[ 0 ], x[ 1 ]
+        #
+        #            ski1a = s1 + 1 + ( 2 * k * t ) + ( 2 * i1 )
+        #            ski1b = s1 + 1 + ( 2 * k * t ) + ( 2 * i1 ) + 1
+        #            ski2a = s1 + 1 + ( 2 * k * t ) + ( 2 * i2 )
+        #            ski2b = s1 + 1 + ( 2 * k * t ) + ( 2 * i2 ) + 1
+        #
+        #            clauses.append( '{x} {y} 0'.format( x = -ski1a, y = -ski2a ) )
+        #            clauses.append( '{x} {y} 0'.format( x = -ski1a, y = -ski2b ) )
+        #            clauses.append( '{x} {y} 0'.format( x = -ski1b, y = -ski2a ) )
+        #            clauses.append( '{x} {y} 0'.format( x = -ski1b, y = -ski2b ) )
+        #            m += 4
+
+
+        # add symetry breaking extension
+
+        #### explanation
+        ## in the paper (https://eprints.soton.ac.uk/262433/1/jpms-sat06a.pdf) the idea is to have
+        ## two single clause constraints for every i in [t] and k1 in [r].
+        ##
+        ##    ( sk1ia \implies \bigwedge_{k2 = 1}^{k1 - 1} !sk2ib)
+        ##    ( sk1ib \implies \bigwedge_{k2 = k1 + 1}^{r} !sk2ia)
+        ##
+        ## however, these don't remain single clauses when you apply De Morgan's Laws and simplify
+        ## the implication
+        ##
+        ## instead, our idea is to take advantage of the adder circuit, which guarantees that
+        ##
+        ## \sum_{k=1}^r skia = 1 and \sum_{k=1}^r skib = 1
+        ##
+        ## so we can rewrite the "if sk1ib is set, then sk2ia must not be set for k2 > k1" into
+        ## if "sk1ib is set, then sk1ia must be set for some k2 < k1" since when this is true the
+        ## sum constraint guarantees the desired condition
+        ##
+        ## this works for the other constraint too, so we get
+        ##
+        ## ( sk1ia implies \bigvee_{k2 = k1 + 1}^{r} sk2ib )
+        ##      = !sk1ia or \bigvee_{k2 = k1 + 1}^{r} sk2ib
+        ## ( sk1ib implies \bigvee_{k2 = 1}^{k1 - 1} sk2ia )
+        ##      = !sk1ib or \bigvee_{k2 = 1}^{k1 - 1} sk2ia
+        ##
+        ## which are single clauses
+        if symmetry and r > 1:
+            for i in range( t ):
+                for k1 in range( r ):
+                    sk1ia = s1 + 1 + ( 2 * k1 * t ) + ( 2 * i )
+                    sk1ib = s1 + 1 + ( 2 * k1 * t ) + ( 2 * i ) + 1
+
+                    clause1 = '{x} '.format( x = -sk1ia )
+                    clause2 = '{x} '.format( x = -sk1ib )
+
+                    for k2 in range( r ):
+                        sk2ia = s1 + 1 + ( 2 * k2 * t ) + ( 2 * i )
+                        sk2ib = s1 + 1 + ( 2 * k2 * t ) + ( 2 * i ) + 1
+
+                        if k1 == k2:
+                            continue
+
+                        if k2 < k1:
+                            clause2 += '{x} '.format( x = sk2ia )
+
+                        if k1 < k2:
+                            clause1 += '{x} '.format( x = sk2ib )
+
+                    clause1 += '0'
+                    clause2 += '0'
+
+                    clauses.append( clause1 )
+                    clauses.append( clause2 )
+                    m += 2
+
+        return n, m, clauses
+
+
+def write( fn, n, m, clauses ):
+
+    fext = fn + '.cnf'
+    with open( fext, 'w' ) as f:
+        f.write( 'p cnf {n} {m}\n'.format( n = n, m = m) )
+        for clause in clauses:
+            f.write( '{c}\n'.format( c = clause ) )
+
+    return
+
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser( description = 'Genotype data to SAT formula converter.' )
+
+    parser.add_argument( '-r', dest = 'r', type = int, default = 1,
+    help = 'possible number of haplotypes' )
+
+    parser.add_argument( '-i', dest = 'i', action = 'store_true', default = True,
+    help = 'include incompatibility extension' )
+
+    parser.add_argument( '-s', dest = 's', action = 'store_true', default = False,
+    help = 'include symmetry breaking extension' )
+
+    parser.add_argument( '-n', dest = 'n', type = int, default = sys.maxsize,
+    help = 'maximum number of genotypes to include' )
+
+    parser.add_argument( dest = 'loc', type = str,
+                         help = 'file or directory containing genotype data' )
+
+    args = parser.parse_args()
+
+    try:
+        if os.path.isdir( args.loc ):
+            for root, dirs, files in os.walk( args.loc ):
+                for f in files:
+                    name, ext = os.path.splitext( f )
+
+                    if name in [ 'genos.haps', 'cgenos.haps', 'pgenos.haps' ]:
+                        n, m, clauses = convert( args.r, args.i, args.s, args.n, os.path.join( root, f ) )
+                        if not n:
+                            continue
+
+                        write( f, n, m, clauses )
+
+        elif os.path.isfile( args.loc ):
+            n, m, clauses = convert( args.r, args.i, args.s, args.n, args.loc )
+            if not n:
+                exit()
+
+            write( args.loc, n, m, clauses )
+
+    except Exception as e:
+        raise( e )

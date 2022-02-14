@@ -1,0 +1,3 @@
+/Users/ningluo/Code/ppsat/test/CMakeFiles/rebuild_cache.dir
+/Users/ningluo/Code/ppsat/test/CMakeFiles/edit_cache.dir
+/Users/ningluo/Code/ppsat/test/CMakeFiles/runTests.dir

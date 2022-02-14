@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ppsat"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\Eval\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ningluo/Code/ppsat"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ningluo/Code/ppsat"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ningluo/Code/ppsat"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/ningluo/Code/ppsat"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit">
+				<Option output="/Users/ningluo/Code/ppsat/src/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningluo/Code/ppsat/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ningluo/Code/ppsat/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 unit"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit/fast">
+				<Option output="/Users/ningluo/Code/ppsat/src/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningluo/Code/ppsat/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ningluo/Code/ppsat/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 unit/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ppsat">
+				<Option output="/Users/ningluo/Code/ppsat/src/libPpsat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningluo/Code/ppsat/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ningluo/Code/ppsat/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 Ppsat"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ppsat/fast">
+				<Option output="/Users/ningluo/Code/ppsat/src/libPpsat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningluo/Code/ppsat/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ningluo/Code/ppsat/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 Ppsat/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="microtest">
+				<Option output="/Users/ningluo/Code/ppsat/Eval/microtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningluo/Code/ppsat/Eval"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ningluo/Code/ppsat/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 microtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="microtest/fast">
+				<Option output="/Users/ningluo/Code/ppsat/Eval/microtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ningluo/Code/ppsat/Eval"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ningluo/Code/ppsat/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 microtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ningluo/Code/ppsat/Eval/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ningluo/Code/ppsat/Eval/microtest.cpp">
+			<Option target="microtest"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/clause.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/formula.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/heuristics.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/literal.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/model.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/parser.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/solver.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/state.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/unit.cpp">
+			<Option target="unit"/>
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/utils.cpp">
+			<Option target="Ppsat"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/ningluo/Code/ppsat/Eval/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Eval\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

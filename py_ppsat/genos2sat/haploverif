@@ -1,0 +1,122 @@
+#!/usr/bin/python3
+
+import sys
+import argparse
+
+
+def verify( r, num, fn ):
+
+    # find all genotypes
+    gts = []
+    gts_dict = {}
+    l = None
+    h = 0
+    t = 0
+    with open( fn, 'r' ) as f:
+
+        # read genotypes
+        for nxt in f:
+            gt, idx, _, uid, var = nxt.split()
+            if not l:
+                l = len( gt )
+
+            if gt in gts_dict:
+                gts_dict[ gt ].append( ( idx, uid, var ) )
+            else:
+                h += gt.count( '9' )
+                t += 1
+                gts.append( gt )
+                gts_dict[ gt ] = [ ( idx, uid, var ) ]
+
+            if t == num:
+                break
+
+        #####  variable numberings
+        ##
+        ##  (  0, s1 ]  haplotypes
+        ##  ( s1, s2 ]  selector bits
+        ##  ( s2, s3 ]  heterozygous sites
+        ##  ( s3, n  ]  adder circuits
+        ##
+        s1 = ( r * l )
+        s2 = s1 + ( 2 * r * t )
+        s3 = s2 + h
+        n  = s3 + ( 2 * r * t )
+
+        vals = [ None ]
+        for nxtin in sys.stdin:
+
+            if nxtin[ 0 ] == 'v':
+                vals += [ int( x ) for x in nxtin.rstrip().split(' ')[ 1: ] if int( x ) != 0 ]
+
+        haplotypes = []
+        for k in range( r ):
+
+            h = ''
+            for j in range( l ):
+                hkj = 1 + ( k * l ) + j
+                h += '2' if vals[ hkj ] > 0 else '1'
+            haplotypes.append( h )
+
+        selectors = []
+        for i in range( t ):
+
+            a, b = None, None
+            for k in range( r ):
+                skia = s1 + 1 + ( 2 * k * t ) + ( 2 * i )
+                vkia = s3 + 1 + ( 2 * k * t ) + ( 2 * i )
+                if vals[ skia ] > 0:
+                    a = k
+                skib = s1 + 1 + ( 2 * k * t ) + ( 2 * i ) + 1
+                vkib = s3 + 1 + ( 2 * k * t ) + ( 2 * i ) + 1
+                if vals[ skib ] > 0:
+                    b = k
+
+                if a and b:
+                    selectors.append( ( a, b ) )
+                    break
+
+        # check explanation
+        tot = True
+        for i in range( t ):
+
+            a, b = selectors[ i ]
+
+            guard = True
+            for j in range( l ):
+
+                b1 = ( haplotypes[ a ][ j ] == haplotypes[ b ][ j ] == gts[ i ][ j ] )
+                b2 = ( ( haplotypes[ a ][ j ] != haplotypes[ b ][ j ] ) and gts[ i ][ j ] == '9' )
+
+                guard &= b1 or b2
+
+                if not guard:
+                    print('invalid inference at index {loc}:\n\t gtype: {g}\n\t htype: {h1}\n\t htype: {h2}'.format(
+                        loc = j,
+                        g   = gts[ i ],
+                        h1  = haplotypes[ a ],
+                        h2  = haplotypes[ b ]
+                    ))
+                    break
+
+            tot &= guard
+
+        print( '\n\n{fin}\n'.format( fin = 'valid' if tot else 'invalid' ) )
+
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser( description = 'Minisat inferred halotypes verifier.' )
+
+    parser.add_argument( '-r', dest = 'r', type = int, default = 1,
+    help = 'number of haplotypes' )
+
+    parser.add_argument( '-n', dest = 'n', type = int, default = sys.maxsize,
+    help = 'number of genotypes from file included' )
+
+    parser.add_argument( dest = 'loc', type = str,
+                         help = 'file containing genotype data' )
+
+    args = parser.parse_args()
+
+    verify( args.r, args.n, args.loc )

@@ -1,0 +1,220 @@
+finish
+connected
+finish generate
+unit search:  2.171999999999938e-05
+guess:  0.00020365300000000502
+check: 1.794499999999838e-05
+backtrack: 3.693999999998532e-06
+propagation: 0.0005764470000000008
+total time: 0.004508975999999998
+number of gate: N/A
+10 variables, 3 literals, 100 clauses
+finish
+connected
+finish generate
+unit search:  8.803199999999484e-05
+guess:  0.0007868269999999969
+check: 8.143800000000312e-05
+backtrack: 3.942999999999308e-06
+propagation: 0.003138487999999995
+total time: 0.019514192999999992
+number of gate: N/A
+10 variables, 3 literals, 500 clauses
+finish
+connected
+finish generate
+unit search:  0.0001854560000000005
+guess:  0.002247341
+check: 0.00019301699999998978
+backtrack: 5.059000000001701e-06
+propagation: 0.007104163999999996
+total time: 0.043738376999999995
+number of gate: N/A
+10 variables, 3 literals, 1000 clauses
+finish
+connected
+finish generate
+unit search:  0.001420406000000013
+guess:  0.008987023999999955
+check: 0.0015977699999999984
+backtrack: 1.32800000000044e-05
+propagation: 0.034187509999999977
+total time: 0.23646615499999998
+number of gate: N/A
+10 variables, 3 literals, 5000 clauses
+finish
+connected
+finish generate
+unit search:  0.0020946259999999883
+guess:  0.015482869000000066
+check: 0.002407085999999947
+backtrack: 8.973000000023212e-06
+propagation: 0.06690563300000008
+total time: 0.525881212
+number of gate: N/A
+10 variables, 3 literals, 10000 clauses
+finish
+connected
+finish generate
+unit search:  2.1511000000001834e-05
+guess:  0.00019911900000000454
+check: 1.8941000000001484e-05
+backtrack: 3.6560000000046555e-06
+propagation: 0.00018725800000000264
+total time: 0.004174905
+number of gate: N/A
+50 variables, 3 literals, 100 clauses
+finish
+connected
+finish generate
+unit search:  0.0001763780000000048
+guess:  0.0014760479999999798
+check: 0.00041699400000000386
+backtrack: 2.4013999999988878e-05
+propagation: 0.0014136220000000033
+total time: 0.031149735999999983
+number of gate: N/A
+50 variables, 3 literals, 500 clauses
+finish
+connected
+finish generate
+unit search:  0.00018548899999999702
+guess:  0.0015111849999999982
+check: 0.00014774299999999185
+backtrack: 4.423999999988992e-06
+propagation: 0.001855049999999997
+total time: 0.036176651000000004
+number of gate: N/A
+50 variables, 3 literals, 1000 clauses
+finish
+connected
+finish generate
+unit search:  0.0012654319999999553
+guess:  0.010543544999999988
+check: 0.0017844329999999742
+backtrack: 1.0979999999993773e-05
+propagation: 0.011383340999999936
+total time: 0.24763852899999994
+number of gate: N/A
+50 variables, 3 literals, 5000 clauses
+finish
+connected
+finish generate
+unit search:  0.0023193619999999915
+guess:  0.01637851100000004
+check: 0.002011790999999985
+backtrack: 7.419000000008502e-06
+propagation: 0.01808937300000002
+total time: 0.450558927
+number of gate: N/A
+50 variables, 3 literals, 10000 clauses
+finish
+connected
+finish generate
+unit search:  2.3461000000002397e-05
+guess:  0.00020256500000000177
+check: 1.9699000000004963e-05
+backtrack: 4.046000000000605e-06
+propagation: 0.00018402700000000327
+total time: 0.004188136000000002
+number of gate: N/A
+100 variables, 3 literals, 100 clauses
+finish
+connected
+finish generate
+unit search:  0.00010301799999999639
+guess:  0.0008920699999999948
+check: 0.00011202599999999424
+backtrack: 5.648000000003928e-06
+propagation: 0.0005899669999999968
+total time: 0.020014234
+number of gate: N/A
+100 variables, 3 literals, 500 clauses
+finish
+connected
+finish generate
+unit search:  0.00018117599999999123
+guess:  0.0015344610000000009
+check: 0.0001463439999999927
+backtrack: 4.828999999997863e-06
+propagation: 0.001277254999999991
+total time: 0.034503348
+number of gate: N/A
+100 variables, 3 literals, 1000 clauses
+finish
+connected
+finish generate
+unit search:  0.0010134669999999901
+guess:  0.007449479000000009
+check: 0.0009723990000000127
+backtrack: 6.33099999999831e-06
+propagation: 0.007706886999999996
+total time: 0.22448895499999996
+number of gate: N/A
+100 variables, 3 literals, 5000 clauses
+finish
+connected
+finish generate
+unit search:  0.0020885480000000234
+guess:  0.016378035000000013
+check: 0.0019328180000000028
+backtrack: 6.532000000003535e-06
+propagation: 0.013698580000000016
+total time: 0.43988667800000003
+number of gate: N/A
+100 variables, 3 literals, 10000 clauses
+finish
+connected
+finish generate
+unit search:  2.13670000000013e-05
+guess:  0.0001678340000000056
+check: 1.8612000000001183e-05
+backtrack: 3.897000000002704e-06
+propagation: 0.00011544599999999822
+total time: 0.004182171999999998
+number of gate: N/A
+1000 variables, 3 literals, 100 clauses
+finish
+connected
+finish generate
+unit search:  8.965899999999888e-05
+guess:  0.0006867919999999986
+check: 8.351800000000464e-05
+backtrack: 4.036999999998403e-06
+propagation: 0.000363830999999995
+total time: 0.016234615
+number of gate: N/A
+1000 variables, 3 literals, 500 clauses
+finish
+connected
+finish generate
+unit search:  0.0001724589999999998
+guess:  0.0013551059999999948
+check: 0.00014402500000000595
+backtrack: 4.540999999996798e-06
+propagation: 0.0007581210000000005
+total time: 0.032841167000000004
+number of gate: N/A
+1000 variables, 3 literals, 1000 clauses
+finish
+connected
+finish generate
+unit search:  0.0009417810000000026
+guess:  0.007919084999999992
+check: 0.0008562860000000116
+backtrack: 5.8109999999944595e-06
+propagation: 0.0041299909999999995
+total time: 0.200360044
+number of gate: N/A
+1000 variables, 3 literals, 5000 clauses
+finish
+connected
+finish generate
+unit search:  0.002112233000000019
+guess:  0.018207128000000017
+check: 0.0019702030000000037
+backtrack: 6.571000000010763e-06
+propagation: 0.011042098
+total time: 0.46565706599999995
+number of gate: N/A
+1000 variables, 3 literals, 10000 clauses

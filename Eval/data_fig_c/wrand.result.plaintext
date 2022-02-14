@@ -1,0 +1,240 @@
+finish
+connected
+finish generate
+unit search:  2.2773999999996242e-05
+guess:  0.0005525860000000007
+mux:  4.4500000000169404e-07
+check: 1.968100000000056e-05
+backtrack: 4.386000000002055e-06
+propagation: 0.0007757070000000005
+total time: 0.006477078000000004
+10 variables, 3 literals, 100 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.00016141199999999967
+guess:  0.003147401000000008
+mux:  6.980000000073039e-07
+check: 0.00011863300000000687
+backtrack: 8.457000000003378e-06
+propagation: 0.0034070699999999843
+total time: 0.033773495999999986
+10 variables, 3 literals, 500 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.00018811200000000416
+guess:  0.005029106000000005
+mux:  6.599999999995498e-07
+check: 0.0003744829999999949
+backtrack: 9.342999999994994e-06
+propagation: 0.006710994999999997
+total time: 0.04760212800000001
+10 variables, 3 literals, 1000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.000998400999999982
+guess:  0.01907177900000001
+mux:  4.080000000072914e-07
+check: 0.0009432240000000203
+backtrack: 5.70999999999211e-06
+propagation: 0.03313110399999997
+total time: 0.24282094
+10 variables, 3 literals, 5000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.0021510859999999687
+guess:  0.03908543000000003
+mux:  1.1999999999789956e-06
+check: 0.002121834999999961
+backtrack: 9.133999999966225e-06
+propagation: 0.06592541299999999
+total time: 0.5033043529999999
+10 variables, 3 literals, 10000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  2.255500000000049e-05
+guess:  0.00041811599999999616
+mux:  4.6599999999757946e-07
+check: 1.9168999999999436e-05
+backtrack: 4.2030000000012335e-06
+propagation: 0.0003548280000000015
+total time: 0.004650572999999998
+50 variables, 3 literals, 100 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.00018412800000000562
+guess:  0.0030514719999999995
+mux:  4.950000000031318e-07
+check: 0.0001047129999999924
+backtrack: 5.475000000004782e-06
+propagation: 0.003834352999999985
+total time: 0.042767236
+50 variables, 3 literals, 500 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.0003903249999999969
+guess:  0.003932206999999993
+mux:  4.549999999964305e-07
+check: 0.00019388900000000264
+backtrack: 5.575000000007657e-06
+propagation: 0.0021218650000000006
+total time: 0.041406601
+50 variables, 3 literals, 1000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.0010914949999999979
+guess:  0.02642699500000001
+mux:  8.479999999977395e-07
+check: 0.0016680849999999858
+backtrack: 1.199299999998793e-05
+propagation: 0.02605144100000001
+total time: 0.37402602999999995
+50 variables, 3 literals, 5000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.002673858999999945
+guess:  0.05547616799999999
+mux:  7.779999999790732e-07
+check: 0.002720842000000001
+backtrack: 1.1884999999933754e-05
+propagation: 0.07899245399999999
+total time: 0.625051749
+50 variables, 3 literals, 10000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  2.3596000000000728e-05
+guess:  0.00042998600000000026
+mux:  4.2499999999834337e-07
+check: 1.883899999999966e-05
+backtrack: 4.2889999999976e-06
+propagation: 0.0003007410000000002
+total time: 0.004511676999999999
+100 variables, 3 literals, 100 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.00023221400000000836
+guess:  0.004176565999999993
+mux:  6.89999999997637e-07
+check: 0.0002465369999999911
+backtrack: 7.715999999990952e-06
+propagation: 0.001850213999999989
+total time: 0.03628758500000001
+100 variables, 3 literals, 500 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.00042056199999998545
+guess:  0.007460202999999999
+mux:  8.280000000082666e-07
+check: 0.0003876529999999878
+backtrack: 7.794000000005408e-06
+propagation: 0.005430725999999997
+total time: 0.09707568
+100 variables, 3 literals, 1000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.0020587890000000053
+guess:  0.03309946899999999
+mux:  6.750000000055323e-07
+check: 0.0024494840000000018
+backtrack: 1.6106999999987437e-05
+propagation: 0.006862673000000097
+total time: 0.28999042900000005
+100 variables, 3 literals, 5000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.0024837659999999984
+guess:  0.059960137000000024
+mux:  7.180000000106546e-07
+check: 0.0041698860000000115
+backtrack: 1.4964000000006195e-05
+propagation: 0.024424223000000023
+total time: 0.948371734
+100 variables, 3 literals, 10000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  2.0890000000002573e-05
+guess:  0.00030392300000000455
+mux:  4.3400000000054506e-07
+check: 1.7780999999994496e-05
+backtrack: 3.6890000000011636e-06
+propagation: 0.00017956999999999695
+total time: 0.004370683
+1000 variables, 3 literals, 100 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.0001788239999999941
+guess:  0.0027664899999999965
+mux:  7.28000000005391e-07
+check: 0.00018839999999999135
+backtrack: 6.911000000012213e-06
+propagation: 0.0010427880000000167
+total time: 0.034082529
+1000 variables, 3 literals, 500 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.00030491099999999105
+guess:  0.003742915999999999
+mux:  4.3200000000853667e-07
+check: 0.00017346999999999502
+backtrack: 4.916999999993177e-06
+propagation: 0.001335319999999987
+total time: 0.04013883
+1000 variables, 3 literals, 1000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.002301849000000078
+guess:  0.026589810000000047
+mux:  6.429999999113534e-07
+check: 0.0012625389999999515
+backtrack: 1.2345999999996415e-05
+propagation: 0.004659422000000024
+total time: 0.3098887210000001
+1000 variables, 3 literals, 5000 clauses.
+-1
+finish
+connected
+finish generate
+unit search:  0.0023202570000000478
+guess:  0.04275373299999996
+mux:  5.899999999670058e-07
+check: 0.0022102200000000405
+backtrack: 9.982000000019475e-06
+propagation: 0.00946663999999986
+total time: 0.4917915920000001
+1000 variables, 3 literals, 10000 clauses.
+-1

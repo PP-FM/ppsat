@@ -1,0 +1,180 @@
+finish
+connected
+finish generate
+round 16
+unsat: Empty stack
+total time: 0.199373
+10 variables, 3 literals, 100 clauses.
+1779376
+##########################
+finish
+connected
+finish generate
+round 10
+unsat: Empty stack
+total time: 0.351235
+10 variables, 3 literals, 500 clauses.
+5029856
+##########################
+finish
+connected
+finish generate
+round 10
+unsat: Empty stack
+total time: 0.635903
+10 variables, 3 literals, 1000 clauses.
+9937856
+##########################
+finish
+connected
+finish generate
+round 8
+unsat: Empty stack
+total time: 2.25779
+10 variables, 3 literals, 5000 clauses.
+39235352
+##########################
+finish
+connected
+finish generate
+round 8
+unsat: Empty stack
+total time: 4.44422
+10 variables, 3 literals, 10000 clauses.
+78375352
+##########################
+finish
+connected
+finish generate
+round 62
+unsat: Empty stack
+total time: 2.64916
+50 variables, 3 literals, 100 clauses.
+37276808
+##########################
+finish
+connected
+finish generate
+round 22
+unsat: Empty stack
+total time: 3.33963
+50 variables, 3 literals, 500 clauses.
+55117456
+##########################
+finish
+connected
+finish generate
+round 14
+unsat: Empty stack
+total time: 3.99537
+50 variables, 3 literals, 1000 clauses.
+68293264
+##########################
+finish
+connected
+finish generate
+round 14
+unsat: Empty stack
+total time: 18.911
+50 variables, 3 literals, 5000 clauses.
+336581264
+##########################
+finish
+connected
+finish generate
+round 14
+unsat: Empty stack
+total time: 37.9443
+50 variables, 3 literals, 10000 clauses.
+671941264
+##########################
+finish
+connected
+finish generate
+round 10000
+unsat: Empty stack
+total time: 841.298
+100 variables, 3 literals, 100 clauses.
+12829731016
+##########################
+finish
+connected
+finish generate
+round 46
+unsat: Empty stack
+total time: 13.6422
+100 variables, 3 literals, 500 clauses.
+232954144
+##########################
+finish
+connected
+finish generate
+round 64
+unsat: Empty stack
+total time: 36.1366
+100 variables, 3 literals, 1000 clauses.
+633924992
+##########################
+finish
+connected
+finish generate
+round 38
+unsat: Empty stack
+total time: 103.269
+100 variables, 3 literals, 5000 clauses.
+1834028152
+##########################
+finish
+connected
+finish generate
+round 22
+unsat: Empty stack
+total time: 119.674
+100 variables, 3 literals, 10000 clauses.
+2112256216
+##########################
+finish
+connected
+finish generate
+round 160
+sat
+total time: 123.881
+1000 variables, 3 literals, 100 clauses.
+2178836824
+##########################
+finish
+connected
+finish generate
+round 444
+unsat: Empty stack
+total time: 1307.6
+1000 variables, 3 literals, 500 clauses.
+23347972416
+##########################
+finish
+connected
+finish generate
+round 532
+unsat: Empty stack
+total time: 3019.49
+1000 variables, 3 literals, 1000 clauses.
+53609150848
+##########################
+finish
+connected
+finish generate
+round 268
+unsat: Empty stack
+total time: 7339.11
+1000 variables, 3 literals, 5000 clauses.
+129808383160
+##########################
+finish
+connected
+finish generate
+round 248
+unsat: Empty stack
+total time: 13522.5
+1000 variables, 3 literals, 10000 clauses.
+239070029120
+##########################
