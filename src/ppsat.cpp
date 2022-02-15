@@ -21,9 +21,6 @@ using namespace emp;
 
 int main(int argc, char** argv) {
 
-    srand(2);
-
-
     try {
 
         int port, party;
@@ -31,18 +28,18 @@ int main(int argc, char** argv) {
 
         parse_party_and_port(argv, &party, &port);
         NetIO *io = new NetIO(party == ALICE ? nullptr : "127.0.0.1", port);
-
         setup_semi_honest(io, party);
 
         int nvar = 4;
-        auto phi = make_unique<Formula>(nvar, "(1 2 3)(-1)(-2 3)");
+        int number_of_steps = atoi(argv[3]);
+        int nvar = atoi(argv[4]);
+        auto phi = make_unique<Formula>(nvar, argv[5]);
+        cout << "input formula: \n";
         phi->print(true);
         Solver solver(nvar, phi);
-        Bit has_unit = solver.UnitSearch();
-        cout << "has unit: " <<  has_unit.reveal(PUBLIC) << endl;
-
+        auto model = solver.solve(number_of_steps, false);
+        cout << model->toString() << endl;
         delete io;
-
     }
 
     catch (char const *msg) {
