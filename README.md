@@ -34,6 +34,9 @@ Run tests:
 
 Evaluate solver on one step:
 ```shell
-src/unit 1 12345 # run this in one terminal
-src/unit 2 12345 # run this in another terminal
+src/ppsat 1 12345  $nvar $nstep $phi # run this in one terminal
+src/ppsat 2 12345  $nvar $nstep $phi # run this in another terminal
+$nvar: the number of variables of the formulae
+$nstep: the maximum number of giant steps that the solver will run. 
+$phi: the string of the input formula. The syntax of the formula is the (\(-? [0-9]+\))+
 ```
