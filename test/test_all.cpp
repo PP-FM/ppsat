@@ -38,7 +38,7 @@ int main(int argc, char **argv)
     NetIO * io = new NetIO(party==ALICE ? nullptr : "127.0.0.1", port);
     setup_semi_honest(io, party);
     testing::InitGoogleTest(&argc, argv);
-    testing::GTEST_FLAG(filter) = "UnitSearch_Evaluation";
+//    testing::GTEST_FLAG(filter) = "UnitSearch_Evaluation";
     int res = RUN_ALL_TESTS();
     cout << CircuitExecution::circ_exec->num_and()<<endl;
 

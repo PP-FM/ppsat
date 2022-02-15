@@ -1,5 +1,5 @@
 file(GLOB ppsat_SRC "*.cpp")
 set(CMAKE_CXX_FLAGS "-march=native -maes -mrdseed -O3")
 add_library(Ppsat ${ppsat_SRC})
-#add_executable(unit unit.cpp)
-#target_link_libraries(unit emp-tool gmp ssl crypto Ppsat)
+add_executable(unit unit.cpp)
+target_link_libraries(unit emp-tool gmp ssl crypto Ppsat)

@@ -13,6 +13,13 @@ sudo make
 sudo cp *.a /usr/lib
 ```
 
+Install emp:
+```shell
+wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
+python install.py --deps --tool --ot --sh2pc
+```
+
+
 # Compile
 ```shell
 cmake .

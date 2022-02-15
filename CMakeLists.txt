@@ -12,7 +12,6 @@ include_directories(include)
 enable_testing()
 
 add_subdirectory(src)
-#add_subdirectory(test)
+add_subdirectory(test)
 add_subdirectory(Eval)
 
-add_test (NAME MyTest COMMAND runTests)

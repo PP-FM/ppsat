@@ -1,2 +1,2 @@
 #!/bin/sh
-runTests 1 12345
+./runTests 1 12345

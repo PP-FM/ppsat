@@ -40,7 +40,7 @@ Bit Solver::UnitSearch()
 	for (int i = 0; i < ncls; i++)
 	{
 		// Check if current clause is unit.
-        unique_ptr<Clause> cl = current_phi->cls[0]->copy();
+        unique_ptr<Clause> cl = current_phi->cls[i]->copy();
 
 		Bit cl_is_unit_and_active = cl->isUnit() & current_phi->active[i];
 		unique_ptr<Literal> unit_ell = cl->get_unit_literal();

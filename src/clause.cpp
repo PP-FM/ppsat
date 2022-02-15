@@ -144,11 +144,11 @@ Bit BIClause::isUnit()
 		Bit exist = neg_vars[j] | pos_vars[j];
 		b = (exist & a) | b;
 		a = exist | a;
-		//printf("%d<%d %d> ", j, a.reveal<bool>(), b.reveal<bool>());
+//		printf("%d<%d %d %d> ", j, a.reveal<bool>(), b.reveal<bool>(), exist.reveal());
 	}
-	//cout << endl;
-	//out << "!!!\n";
-	//printf("a=%d b=%d unit=%d\n", a.reveal<bool>(), b.reveal<bool>(), unit.reveal<bool>());
+//	cout << endl;
+//	cout << "!!!\n";
+//	printf("a=%d b=%d unit=%d\n", a.reveal<bool>(), b.reveal<bool>(), ((!b) & a).reveal<bool>());
 	return (!b) & a;
 }
 
