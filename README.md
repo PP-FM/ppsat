@@ -29,11 +29,6 @@ make
 ```
 
 ## Run
-Run tests:
-```shell
-./runTests.sh
-```
-
 Evaluate solver on one step:
 ```shell
 src/ppsat 1 12345  $nvar $nstep $phi # run this in one terminal
