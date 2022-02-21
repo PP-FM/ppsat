@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_CXX_FLAGS "-march=native -maes -mrdseed -O3")
 
 include_directories(include)
-
+find_package(emp-ot REQUIRED)
+include_directories(${EMP-OT_INCLUDE_DIRS})
 enable_testing()
 
 add_subdirectory(src)
