@@ -14,7 +14,7 @@ jobs:
         wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
         python install.py --deps --tool --ot --sh2pc
     - name: Create Build Environment
-      run: cmake $GITHUB_WORKSPACE -DUSE_RANDOM_DEVICE=On && make
+      run: cmake . & make
     - name: Test Functionalities
       run: test/runTests.sh 
     - name: Microevaluation
