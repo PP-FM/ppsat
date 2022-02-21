@@ -1,0 +1,24 @@
+name: x86
+on: [push, pull_request]
+
+jobs:
+  artifact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+    - name: Install gtest manually
+      run: sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && sudo cp ./lib/*.a /usr/lib && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
+    - uses: actions/checkout@v2
+    - name: install dependency
+      run: |
+        wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
+        python install.py --deps --tool --ot --sh2pc
+    - name: Create Build Environment
+      run: cmake . && make
+    - name: Test Functionalities
+      run: test/runTests.sh 
+    - name: Microevaluation
+      run: Eval/microeval.sh 
+    - name: benchmark
+      shell: bash
+      run: py_ppsat/bench.sh
