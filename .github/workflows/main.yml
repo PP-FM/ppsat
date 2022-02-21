@@ -17,7 +17,9 @@ jobs:
       run: cmake . && make
     - name: Microevaluation
       working-directory: ./Eval
-      run: ./microeval.sh 
+      run: |
+        ls -a
+        ./microeval.sh 
     - name: benchmark
       working-directory: ./py_ppsat
       shell: bash
