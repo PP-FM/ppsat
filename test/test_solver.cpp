@@ -82,7 +82,7 @@ TEST(SOLVER, evaluation)
     auto end = sc.now();
     auto time_span = static_cast<chrono::duration<double>>(end - start);
     cout << "total time: " << time_span.count() << endl;
-  // cout << model->toString() << endl;
+    cout << model->toString() << endl;
 }
 
 TEST(SOLVER, private_stack)
