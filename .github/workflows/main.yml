@@ -14,7 +14,7 @@ jobs:
         wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
         python3 install.py --deps --tool=$(cat $GITHUB_WORKSPACE/.github/workflows/emp-tool.dep) --ot=$(cat $GITHUB_WORKSPACE/.github/workflows/emp-ot.dep)
     - name: Create Build Environment
-      run: cmake . && make
+      run: cmake $GITHUB_WORKSPACE -DUSE_RANDOM_DEVICE=On  && make
     - name: Microevaluation
       working-directory: ./Eval
       run: |
