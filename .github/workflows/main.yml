@@ -17,10 +17,7 @@ jobs:
       run: cmake . && make
     - name: Test Functionalities
       shell: bash
-      run: |
-         cd ./test
-         ./runTests.sh
-         cd ..
+      run: test/runTests.sh
     - name: Microevaluation
       run: Eval/microeval.sh 
     - name: benchmark
