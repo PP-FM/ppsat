@@ -30,7 +30,6 @@ int main(int argc, char** argv) {
         NetIO *io = new NetIO(party == ALICE ? nullptr : "127.0.0.1", port);
         setup_semi_honest(io, party);
 
-        int nvar = 4;
         int number_of_steps = atoi(argv[3]);
         int nvar = atoi(argv[4]);
         auto phi = make_unique<Formula>(nvar, argv[5]);
