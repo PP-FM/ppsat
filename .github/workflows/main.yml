@@ -15,8 +15,6 @@ jobs:
         python install.py --deps --tool --ot --sh2pc
     - name: Create Build Environment
       run: cmake . && make
-    - name: Test Functionalities
-      run: test/runTests.sh 
     - name: Microevaluation
       run: Eval/microeval.sh 
     - name: benchmark
