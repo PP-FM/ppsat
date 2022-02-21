@@ -14,4 +14,6 @@ enable_testing()
 add_subdirectory(src)
 add_subdirectory(test)
 add_subdirectory(Eval)
+add_subdirectory(compare)
+
 
