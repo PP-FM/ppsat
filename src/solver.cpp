@@ -22,7 +22,7 @@ Solver::Solver(int _nvar, unique_ptr<Formula> const &_phi)
 	unique_ptr<Literal> _ell = make_unique<BILiteral>(nvar);
 	unique_ptr<Model> _model = make_unique<Model>(nvar);
 
-	decisions.init(nvar, State(_ell, _model, true));
+	decisions.init(nvar * 2 , State(_ell, _model, true));
 /*
  * h is a set of heuristics that are used for guessing literals.
  * for now, available heuristics are weighted-random, random, deterministic. For more information please see our paper.
@@ -86,22 +86,24 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
     auto start = sc.now();
     auto end = sc.now();
     auto time_span = static_cast<chrono::duration<double>>(end - start);
-    int s = 0;
-    int e = 0;
+    float s = 0;
+    float  e = 0;
 
 
     while (i < steps)
 	{
-		// cout << i << endl;
+		cout << i << endl;
 
 		State backtrack(current.get_literal(), current.get_model(), true);
 
 		if (i > 0)
 		{
-            s = CircuitExecution::circ_exec->num_and()  ;
+            start  = sc.now( )  ;
 			Integer sigma = check();
-			e = CircuitExecution::circ_exec->num_and() ;
-            cout << "check: "<< e -s  <<" seconds\n";
+            end =   sc.now( );
+            time_span = static_cast<chrono::duration<double>>(end - start);
+
+            cout << "check: "<< time_span.count()  <<" seconds\n";
 
             Bit sat = sigma.equal(Integer(2, 0, PUBLIC));
 
@@ -115,7 +117,7 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
 
 			conflict = sigma.equal(Integer(2, 1, PUBLIC));
 
-            s =   CircuitExecution::circ_exec->num_and();
+            start  = sc.now( );
             try
 			{
 				// When conflict, backtrack to last state and flip its literal.
@@ -131,21 +133,21 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
 					return current.get_model()->default_value();
 			}
 
-            e =   CircuitExecution::circ_exec->num_and();
+            end =   sc.now( );
 
             time_span = static_cast<chrono::duration<double>>(end - start);
 
-            cout<<  "backtrack: "<< e - s<<" seconds\n";
+            cout<<  "backtrack: "<< time_span.count() <<" seconds\n";
 
-            s =   CircuitExecution::circ_exec->num_and();
+            start  = sc.now( )  ;
 
             propagation();
 
-            e =   CircuitExecution::circ_exec->num_and();
+            end =   sc.now( );
 
             time_span = static_cast<chrono::duration<double>>(end - start);
 
-            cout<< "propagation: "<< e -s <<" seconds\n";
+            cout<< "propagation: "<< time_span.count() <<" seconds\n";
 
         }
 
@@ -153,14 +155,14 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
 			return current.get_model();
 
 		// If there's a unit clause, replace current literal with it.
-        s =   CircuitExecution::circ_exec->num_and();
+        start  = sc.now( )  ;
         Bit has_unit = UnitSearch();
-        e =   CircuitExecution::circ_exec->num_and();
+        end =   sc.now( );
         time_span = static_cast<chrono::duration<double>>(end - start);
-        cout << "unit search: "<< e -s <<" seconds\n";
+        cout << "unit search: "<< time_span.count() <<" seconds\n";
 
 
-        s =   CircuitExecution::circ_exec->num_and();
+        start  = sc.now( )  ;
 
         /*
 		 * Heuristically guess a literal.
@@ -170,9 +172,9 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
 		unique_ptr<Literal> guess = h.weight_random(*input_phi, current);
         // If there's no unit clause and no conflict, record the guess into "decisions".
 		decisions.push(State(guess->copy(), current.get_model()), !has_unit & !conflict);
-        e =   CircuitExecution::circ_exec->num_and();
+        end =   sc.now( );
         time_span = static_cast<chrono::duration<double>>(end - start);
-        cout<<  "guess: "<< e -s <<" seconds\n";
+        cout<<  "guess: "<< time_span.count() <<" seconds\n";
         s =   CircuitExecution::circ_exec->num_and();
 
 		// ell1 = unit literal when there's one, otherwise use the guessed literal.
@@ -194,7 +196,7 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
 		current.set_model(model2);
         e = CircuitExecution::circ_exec->num_and();
         time_span = static_cast<chrono::duration<double>>(end - start);
-        cout << "mux: "<< e - s<<" seconds\n";
+        cout << "mux: "<< time_span.count() <<" seconds\n";
 
         i = i + 1;
 	}
