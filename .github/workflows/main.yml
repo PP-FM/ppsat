@@ -1,4 +1,4 @@
-name: x86
+name: artifact
 on: [push, pull_request]
 
 jobs:
