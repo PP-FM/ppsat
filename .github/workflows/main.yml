@@ -1,8 +1,8 @@
-name: x86
+name: artifact
 on: [push, pull_request]
 
 jobs:
-  artifact:
+  functionalities:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -20,11 +20,57 @@ jobs:
       working-directory: ./test
       run: |
        ./runTests.sh
+  
+  microevaluation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install gtest manually
+      run: sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && sudo cp ./lib/*.a /usr/lib && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
+    - name: install emp
+      run: |
+        wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
+        python3 install.py --deps --tool --ot --sh2pc
+        sudo ldconfig      
+    - name: Create Build Environment
+      run: ls && cmake . && make
     - name: Microevaluation
       working-directory: ./Eval
       run: |
         ./microeval.sh 
-    - name: benchmark
-      working-directory: ./py_ppsat
-      shell: bash
-      run: ./bench.sh
+  simulation_difference:
+      runs-on: ubuntu-latest
+      timeout-minutes: 60
+      steps:
+      - uses: actions/checkout@v2
+      - name: Install gtest manually
+        run: sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && sudo cp ./lib/*.a /usr/lib && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
+      - name: install emp
+        run: |
+          wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
+          python3 install.py --deps --tool --ot --sh2pc
+          sudo ldconfig      
+      - name: Create Build Environment
+        run: ls && cmake . && make
+      - name: benchmark
+        working-directory: ./compare
+        run: ./compare.sh
+  benchmark:
+      runs-on: ubuntu-latest
+      timeout-minutes: 1440
+      steps:
+      - uses: actions/checkout@v2
+      - name: Install gtest manually
+        run: sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && sudo cp ./lib/*.a /usr/lib && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
+      - name: install emp
+        run: |
+          wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
+          python3 install.py --deps --tool --ot --sh2pc
+          sudo ldconfig      
+      - name: Create Build Environment
+        run: ls && cmake . && make
+      - name: benchmark
+        working-directory: ./py_ppsat
+        shell: bash
+        run: ./bench.sh
