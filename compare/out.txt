@@ -1,0 +1,3189 @@
+unit search: 100300 seconds
+guess: 883744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 883740 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77088 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208144 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163568 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035248 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33808 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 163572 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 77092 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1208148 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905440 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 336448 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 948744 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 33812 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 1035244 seconds
+mux: 122300 seconds
+check: 80504 seconds
+backtrack: 12132 seconds
+propagation: 60400 seconds
+unit search: 100300 seconds
+guess: 905444 seconds
+mux: 122300 seconds

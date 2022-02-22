@@ -31,6 +31,8 @@ int main(int argc, char** argv) {
          */
         single_step_test = number_of_steps== 1;
 
+        cout << "test single step: " << single_step_test << endl;
+
         cout<<"finish set up" << endl;
         NetIO *io = new NetIO(party == ALICE ? nullptr : "127.0.0.1", port);
         setup_semi_honest(io, party);
@@ -50,8 +52,10 @@ int main(int argc, char** argv) {
          * i.e  auto phi = make_unique<Formula>(nvar, "(1 2 3)(-1) (-2 3)");
          * the syntax of input string is the (\(-?[0-9]+\))+
          */
+        std::streambuf *coutbuf ;
+
         std::ofstream out("out.txt");
-        std::streambuf *coutbuf = std::cout.rdbuf(); //save old buf
+        coutbuf = std::cout.rdbuf(); //save old buf
         std::cout.rdbuf(out.rdbuf());
 
         Solver solver(nvar, phi);
@@ -62,7 +66,7 @@ int main(int argc, char** argv) {
 
         chrono::steady_clock sc;
         auto start = sc.now();
-        auto model = solver.solve(number_of_steps, single_step_test);
+        auto model = solver.solve(number_of_steps + int(single_step_test), single_step_test);
         auto end = sc.now();
         auto time_span = static_cast<chrono::duration<double>>(end - start);
         std::cout.rdbuf(coutbuf); //reset to standard output again

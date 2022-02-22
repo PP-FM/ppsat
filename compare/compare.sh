@@ -9,7 +9,7 @@ do
             sleep 1 ;
             echo "############ single step  ##############" ;
             ./solver 1 12345 $nvar $ncls $nltr 532 >/dev/null 2>/dev/null &
-            ./solver 2 12345 $nvar $ncls $nltr 532;
+            ./solver 2 12345 $nvar $ncls $nltr 532 ;
             sleep 1 ;
             echo "############ 100 steps  ##############" ;
         done
