@@ -1,3 +1,5 @@
+![artifact](https://github.com/PP-FM/ppsat/workflows/artifact/badge.svg)
+
 # Installation
 
 ## Install dependency
