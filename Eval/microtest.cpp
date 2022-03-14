@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
 
         chrono::steady_clock sc;
         auto start = sc.now();
-        auto model = solver.solve(number_of_steps, single_step_test);
+        auto model = solver.solve(number_of_steps + 1, single_step_test);
         auto end = sc.now();
         auto time_span = static_cast<chrono::duration<double>>(end - start);
         cout << "total time: " << time_span.count() << endl;

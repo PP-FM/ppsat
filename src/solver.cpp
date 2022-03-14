@@ -92,7 +92,6 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
 
     while (i < steps)
 	{
-		cout << i << endl;
 
 		State backtrack(current.get_literal(), current.get_model(), true);
 
@@ -177,6 +176,8 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
         cout<<  "guess: "<< time_span.count() <<" seconds\n";
         s =   CircuitExecution::circ_exec->num_and();
 
+        start  = sc.now( )  ;
+
 		// ell1 = unit literal when there's one, otherwise use the guessed literal.
 		unique_ptr<Literal> ell1 = (current.get_literal())->select(!has_unit, guess);
 		current.set_literal(ell1);
@@ -195,6 +196,7 @@ unique_ptr<Model> Solver::solve(int steps, bool giantstep_test)
 		current.set_literal(ell2);
 		current.set_model(model2);
         e = CircuitExecution::circ_exec->num_and();
+        end =   sc.now( );
         time_span = static_cast<chrono::duration<double>>(end - start);
         cout << "mux: "<< time_span.count() <<" seconds\n";
 
