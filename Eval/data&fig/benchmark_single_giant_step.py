@@ -210,7 +210,7 @@ ax.set_xticklabels(labels,  horizontalalignment = 'center', fontsize = 60)
 
 ax.set_ylabel ('Time (s)', fontsize = 80 )
 ax.legend(loc='upper left', bbox_to_anchor=(1, 0.6), ncol= 1, fancybox=True, shadow= False, fontsize = 60)
-ax.yticks(fontsize = 60)
+# ax.yticks(fontsize = 60)
 
 
 
@@ -243,7 +243,7 @@ ax.text(0.05, 0.95, textstr, transform=ax.transAxes, fontsize=60,
 # ax2.set_yscale("log")
 # ax2.set_ylabel("number of gates")
 # ax2.legend(loc = "upper left")
-
+plt.show()
 fig.savefig('./figs_new/stackedbarchart.pdf', bbox_inches='tight', dpi=200)
 
 
