@@ -23,6 +23,7 @@ public:
 
 	Formula(vector<unique_ptr<Clause>> const &_cls, bool create_default = false);
 	/** Construct from a string. Only for test purpose. */
+	Formula(int nvar, string text, int party);
 	Formula(int nvar, string text);
 
 	/** Construct a list of default clauses. The length is still cls.size() */
@@ -34,6 +35,9 @@ public:
 	/** Count all alive variables.
 	 * Here "alive" means the variable exists in at least one active clause.
 	 */
+
+	unique_ptr<Formula> conjunction(unique_ptr<Formula> const &f1) const;
+
 	Integer num_of_alive_variables(int nvar) const;
 
 	/** Return the random-th alive variable. Here random ranges from 0 to #(alive variables - 1). */

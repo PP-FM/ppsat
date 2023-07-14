@@ -28,7 +28,7 @@ Formula::Formula(vector<unique_ptr<Clause>> const &_cls, bool create_default)
 	//nvar = _nvar;
 
 	// cout << _cls.size() << endl;
-	// cout <<_cls.size() << endl;
+	 cout <<"size :" << _cls.size() << endl;
 	for (auto &cl : _cls)
 	{
 		//cl -> print(true);
@@ -41,11 +41,26 @@ Formula::Formula(vector<unique_ptr<Clause>> const &_cls, bool create_default)
 	active = new Bit[cls.size()];
 	//unit = new Bit[cls.size()];
 	//cls = new clause[cls.size()];
+
 	for (int i = 0; i < cls.size(); i++)
 	{
 		active[i] = Bit(1, PUBLIC);
 		//	unit[i] = Bit(0, PUBLIC);
 		//cls[i] = _cls[i];
+	}
+}
+
+
+
+Formula::Formula(int nvar, string text,  int party)
+{
+	vector<string> raw_cls = Parser::parse_clauses(text);
+	active = new Bit[raw_cls.size()];
+	int i = 0;
+	for (auto raw_cl : raw_cls) {
+		active[i] = Bit(1, party);
+		cls.push_back(make_unique<BIClause>(nvar, raw_cl, party));
+		i++;
 	}
 }
 
@@ -59,6 +74,17 @@ Formula::Formula(int nvar, string text)
 		cls.push_back(make_unique<BIClause>(nvar, raw_cl));
 		i++;
 	}
+}
+
+unique_ptr<Formula> Formula::conjunction(unique_ptr<Formula> const &f1) const{
+	assert(f1->cls[0]->nvar == this->cls[0]->nvar);
+	//int res_nvar = max(f1->cls[0]->nvar, this->cls[0]->nvar); 
+	// int res_ncls = f1->cls.size() + this ->cls.size(); 
+	cout << f1->cls.size() << this ->cls.size() << endl; 
+	vector<unique_ptr<Clause>> res_cls; 
+	for (int i = 0; i < f1->cls.size(); i ++)res_cls.push_back(f1->cls[i]->copy());
+	for (int i = 0 ; i < this->cls.size(); i ++) res_cls.push_back(this->cls[i]->copy());
+	return make_unique<Formula>(res_cls, false); 
 }
 
 unique_ptr<Formula> Formula::default_value() const
@@ -175,6 +201,7 @@ void Formula::print(bool test) const
 	if (!test)
 		return;
 	//cout << "print" << endl;
+	// cout << "print size" <<  this->active ->size() << " clasue\n";
 	for (int i = 0; i < cls.size(); i++)
 	{
 		cout << "print " << i << " clasue\n";

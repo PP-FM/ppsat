@@ -32,11 +32,14 @@ int main(int argc, char** argv) {
 
         int number_of_steps = atoi(argv[3]);
         int nvar = atoi(argv[4]);
-        auto phi = make_unique<Formula>(nvar, argv[5]);
+        auto phi_a =  make_unique<Formula>(nvar, argv[5], ALICE);
+        auto phi_b =  make_unique<Formula>(nvar, argv[6], BOB);
+        auto phi = phi_a -> conjunction(phi_b);
         cout << "input formula: \n";
-        phi->print(true);
+         phi->print(true);
         Solver solver(nvar, phi);
         auto model = solver.solve(number_of_steps, false);
+        cout << "model\n"; 
         cout << model->toString() << endl;
         delete io;
     }

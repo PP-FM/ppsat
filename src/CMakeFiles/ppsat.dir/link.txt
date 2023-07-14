@@ -1,0 +1,1 @@
+/usr/bin/c++ -march=native -maes -mrdseed -O3 CMakeFiles/ppsat.dir/ppsat.cpp.o -o ppsat  -lemp-tool -lgmp -lssl -lcrypto libPpsat.a 

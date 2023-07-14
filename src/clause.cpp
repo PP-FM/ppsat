@@ -63,6 +63,20 @@ BIClause::BIClause(int _nvar, string text) : Clause(_nvar, -1) // should never u
 	}
 }
 
+BIClause::BIClause(int _nvar, string text, int party) : Clause(_nvar, -1) // should never use nltr
+{
+	vector<int> vars = Parser::parse_literals(text);
+	pos_vars = new Bit[nvar];
+	neg_vars = new Bit[nvar];
+	for (int i = 0; i < nvar; i++)
+	{
+		bool has_pos = find(vars.begin(), vars.end(), i) != vars.end();
+		bool has_neg = find(vars.begin(), vars.end(), -i) != vars.end();
+		neg_vars[i] = Bit(has_neg, party);
+		pos_vars[i] = Bit(has_pos, party);
+	}
+}
+
 unique_ptr<Clause> BIClause::default_value() const
 {
 	// bi_clause* res = new bi_clause(nvar);
