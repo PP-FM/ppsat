@@ -148,7 +148,6 @@ public:
         // shift to next level by two
         Integer midpoint(PTR_BIT, 2, PUBLIC);
         Bit real2 = this->ptrs[level] < midpoint; // index 0 or 1
-        
         // Pack up the last two buckets into a single bucket for next level
         vector<T> bucket;
 
@@ -268,7 +267,7 @@ public:
     
     Bit underflow = pop(0, &vals, Bit(real, PUBLIC));
     
-    if(underflow.reveal<bool>()) {
+    if((underflow & b).reveal<bool>()) {
      // cerr << "Empty stack!!!" << endl;
       throw "Empty stack";
     }
