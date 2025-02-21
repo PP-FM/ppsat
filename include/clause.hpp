@@ -56,6 +56,7 @@ protected:
 	//int nvar;
 public:
 	BIClause(int _nvar);
+	BIClause(int _nvar, string text, int party);
 
     /** Construct a clause from string. Only for test purpose. */
 	BIClause(int _nvar, string text);

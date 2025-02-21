@@ -1,1 +1,0 @@
-/usr/bin/c++  -march=native -maes -mrdseed -O3   CMakeFiles/solver.dir/solver.cpp.o  -o solver  ../src/libPpsat.a -lpthread -lemp-tool -lgmp -lssl -lcrypto 
